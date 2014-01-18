@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/about.png</file>
+        <file>images/qt-logo.png</file>
+        <file>images/quit.png</file>
+        <file>images/cyb_strudel_48x48.png</file>
+        <file>images/cyb10101.de.png</file>
+    </qresource>
+</RCC>
