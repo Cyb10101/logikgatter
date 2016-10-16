@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>frm_Main</class>
- <widget class="QMainWindow" name="frm_Main">
+ <class>frm_main</class>
+ <widget class="QMainWindow" name="frm_main">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>451</width>
-    <height>380</height>
+    <width>580</width>
+    <height>350</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -42,13 +42,37 @@ border: 5px solid grey;</string>
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>5</y>
+      <y>2</y>
       <width>100</width>
       <height>21</height>
      </rect>
     </property>
+    <property name="cursor">
+     <cursorShape>OpenHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QRadioButton {
+	padding: 0px 1px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+QRadioButton:hover {
+	border: 1px solid gray;
+	background: lightgray;
+}
+QRadioButton::indicator::checked {
+	image: url(:/images/radio_on.png);
+}
+QRadioButton::indicator::unchecked {
+	image: url(:/images/radio_off.png);
+}
+QRadioButton:focus {
+	outline: none;
+}
+</string>
+    </property>
     <property name="text">
-     <string>1 - True</string>
+     <string>1 - true       </string>
     </property>
     <property name="checked">
      <bool>true</bool>
@@ -61,13 +85,37 @@ border: 5px solid grey;</string>
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>25</y>
+      <y>22</y>
       <width>100</width>
       <height>21</height>
      </rect>
     </property>
+    <property name="cursor">
+     <cursorShape>OpenHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QRadioButton {
+	padding: 0px 1px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+QRadioButton:hover {
+	border: 1px solid gray;
+	background: lightgray;
+}
+QRadioButton::indicator::checked {
+	image: url(:/images/radio_on.png);
+}
+QRadioButton::indicator::unchecked {
+	image: url(:/images/radio_off.png);
+}
+QRadioButton:focus {
+	outline: none;
+}
+</string>
+    </property>
     <property name="text">
-     <string>0 - False</string>
+     <string>0 - false      </string>
     </property>
     <attribute name="buttonGroup">
      <string notr="true">buttonGroup</string>
@@ -82,8 +130,32 @@ border: 5px solid grey;</string>
       <height>21</height>
      </rect>
     </property>
+    <property name="cursor">
+     <cursorShape>OpenHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QRadioButton {
+	padding: 0px 1px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+QRadioButton:hover {
+	border: 1px solid gray;
+	background: lightgray;
+}
+QRadioButton::indicator::checked {
+	image: url(:/images/radio_on.png);
+}
+QRadioButton::indicator::unchecked {
+	image: url(:/images/radio_off.png);
+}
+QRadioButton:focus {
+	outline: none;
+}
+</string>
+    </property>
     <property name="text">
-     <string>1 - True</string>
+     <string>1 - true       </string>
     </property>
     <property name="checked">
      <bool>true</bool>
@@ -101,8 +173,32 @@ border: 5px solid grey;</string>
       <height>21</height>
      </rect>
     </property>
+    <property name="cursor">
+     <cursorShape>OpenHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QRadioButton {
+	padding: 0px 1px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+QRadioButton:hover {
+	border: 1px solid gray;
+	background: lightgray;
+}
+QRadioButton::indicator::checked {
+	image: url(:/images/radio_on.png);
+}
+QRadioButton::indicator::unchecked {
+	image: url(:/images/radio_off.png);
+}
+QRadioButton:focus {
+	outline: none;
+}
+</string>
+    </property>
     <property name="text">
-     <string>0 - False</string>
+     <string>0 - false      </string>
     </property>
     <attribute name="buttonGroup">
      <string notr="true">buttonGroup_2</string>
@@ -112,13 +208,37 @@ border: 5px solid grey;</string>
     <property name="geometry">
      <rect>
       <x>240</x>
-      <y>200</y>
+      <y>197</y>
       <width>100</width>
       <height>21</height>
      </rect>
     </property>
+    <property name="cursor">
+     <cursorShape>OpenHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QRadioButton {
+	padding: 0px 1px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+QRadioButton:hover {
+	border: 1px solid gray;
+	background: lightgray;
+}
+QRadioButton::indicator::checked {
+	image: url(:/images/radio_on.png);
+}
+QRadioButton::indicator::unchecked {
+	image: url(:/images/radio_off.png);
+}
+QRadioButton:focus {
+	outline: none;
+}
+</string>
+    </property>
     <property name="text">
-     <string>0 - False</string>
+     <string>0 - false      </string>
     </property>
     <attribute name="buttonGroup">
      <string notr="true">buttonGroup_3</string>
@@ -128,13 +248,37 @@ border: 5px solid grey;</string>
     <property name="geometry">
      <rect>
       <x>240</x>
-      <y>180</y>
+      <y>177</y>
       <width>100</width>
       <height>21</height>
      </rect>
     </property>
+    <property name="cursor">
+     <cursorShape>OpenHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QRadioButton {
+	padding: 0px 1px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+QRadioButton:hover {
+	border: 1px solid gray;
+	background: lightgray;
+}
+QRadioButton::indicator::checked {
+	image: url(:/images/radio_on.png);
+}
+QRadioButton::indicator::unchecked {
+	image: url(:/images/radio_off.png);
+}
+QRadioButton:focus {
+	outline: none;
+}
+</string>
+    </property>
     <property name="text">
-     <string>1 - True</string>
+     <string>1 - true       </string>
     </property>
     <property name="checked">
      <bool>true</bool>
@@ -173,7 +317,7 @@ border: 5px solid grey;</string>
      </rect>
     </property>
     <property name="text">
-     <string>label_RandomB</string>
+     <string>label_Rand.A</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_RandomB">
@@ -186,7 +330,7 @@ border: 5px solid grey;</string>
      </rect>
     </property>
     <property name="text">
-     <string>label_RandomB</string>
+     <string>label_Rand.B</string>
     </property>
    </widget>
    <widget class="QPushButton" name="button_Check_Quiz">
@@ -211,13 +355,17 @@ QPushButton:hover {
 	color: white;
 	background: green;
 	border: 2px solid green;
-}</string>
+}
+QPushButton:focus {
+	outline: none;
+}
+</string>
     </property>
     <property name="text">
      <string>Auswerten</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_ausgabe_oben">
+   <widget class="QLabel" name="label_output_top">
     <property name="geometry">
      <rect>
       <x>235</x>
@@ -227,23 +375,23 @@ QPushButton:hover {
      </rect>
     </property>
     <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;label_ausgabe_oben&lt;/p&gt;&lt;p&gt;label_ausgabe_oben&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;label_output_top&lt;br/&gt;label_output_top&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
     </property>
    </widget>
-   <widget class="QLabel" name="label_ausgabe_unten">
+   <widget class="QLabel" name="label_output_bottom">
     <property name="geometry">
      <rect>
       <x>235</x>
       <y>255</y>
       <width>171</width>
-      <height>51</height>
+      <height>41</height>
      </rect>
     </property>
     <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;label_ausgabe_unten&lt;/p&gt;&lt;p&gt;label_ausgabe_unten&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;label_output_bottom&lt;br/&gt;label_output_bottom&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
@@ -271,7 +419,11 @@ QPushButton:hover {
 	color: white;
 	background: green;
 	border: 2px solid green;
-}</string>
+}
+QPushButton:focus {
+	outline: none;
+}
+</string>
     </property>
     <property name="text">
      <string>Neue Werte</string>
@@ -415,30 +567,71 @@ border-radius: 8px;</string>
      <set>Qt::AlignCenter</set>
     </property>
    </widget>
+   <widget class="QLabel" name="label_truth_table">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>10</y>
+      <width>171</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	border: 1px solid grey;
+	border-radius: 4px;
+}</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Wahrheitstabelle:&lt;br/&gt;&lt;/span&gt;(&lt;span style=&quot; color:#008000;&quot;&gt;true&lt;/span&gt; &amp;amp;&amp;amp; &lt;span style=&quot; color:#008000;&quot;&gt;true&lt;/span&gt;) = &lt;span style=&quot; color:#008000;&quot;&gt;true&lt;/span&gt;&lt;br/&gt;(&lt;span style=&quot; color:#008000;&quot;&gt;true&lt;/span&gt; &amp;amp;&amp;amp; &lt;span style=&quot; color:#ff0000;&quot;&gt;false&lt;/span&gt;) = &lt;span style=&quot; color:#ff0000;&quot;&gt;false&lt;/span&gt;&lt;br/&gt;(&lt;span style=&quot; color:#ff0000;&quot;&gt;false&lt;/span&gt; &amp;amp;&amp;amp; &lt;span style=&quot; color:#008000;&quot;&gt;true&lt;/span&gt;) = &lt;span style=&quot; color:#ff0000;&quot;&gt;false&lt;/span&gt;&lt;br/&gt;(&lt;span style=&quot; color:#ff0000;&quot;&gt;false&lt;/span&gt; &amp;amp;&amp;amp; &lt;span style=&quot; color:#ff0000;&quot;&gt;false&lt;/span&gt;) = &lt;span style=&quot; color:#ff0000;&quot;&gt;false&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+    </property>
+   </widget>
   </widget>
-  <widget class="QMenuBar" name="menuBar">
+  <widget class="QMenuBar" name="menu">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>451</width>
-     <height>20</height>
+     <width>580</width>
+     <height>25</height>
     </rect>
    </property>
-   <widget class="QMenu" name="menu_File">
+   <property name="defaultUp">
+    <bool>false</bool>
+   </property>
+   <property name="nativeMenuBar">
+    <bool>false</bool>
+   </property>
+   <widget class="QMenu" name="menu_file">
     <property name="title">
      <string>Datei</string>
     </property>
-    <addaction name="menu_File_Quit"/>
+    <addaction name="menu_file_quit"/>
    </widget>
-   <widget class="QMenu" name="menu_Help">
+   <widget class="QMenu" name="menu_help">
+    <property name="locale">
+     <locale language="German" country="Germany"/>
+    </property>
     <property name="title">
      <string>Hilfe</string>
     </property>
-    <addaction name="menu_Help_About"/>
+    <addaction name="menu_help_about"/>
    </widget>
-   <addaction name="menu_File"/>
-   <addaction name="menu_Help"/>
+   <widget class="QMenu" name="menu_view">
+    <property name="title">
+     <string>Ansicht</string>
+    </property>
+    <addaction name="menu_view_toolbar"/>
+    <addaction name="menu_view_statusbar"/>
+    <addaction name="separator"/>
+    <addaction name="menu_view_truth_table"/>
+   </widget>
+   <addaction name="menu_file"/>
+   <addaction name="menu_view"/>
+   <addaction name="menu_help"/>
   </widget>
   <widget class="QToolBar" name="toolbar">
    <property name="styleSheet">
@@ -457,6 +650,9 @@ QToolButton:hover {
 	background : grey;
 }</string>
    </property>
+   <property name="movable">
+    <bool>false</bool>
+   </property>
    <attribute name="toolBarArea">
     <enum>TopToolBarArea</enum>
    </attribute>
@@ -464,8 +660,8 @@ QToolButton:hover {
     <bool>false</bool>
    </attribute>
   </widget>
-  <widget class="QStatusBar" name="statusBar"/>
-  <action name="menu_File_Quit">
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="menu_file_quit">
    <property name="icon">
     <iconset resource="Ressourcen.qrc">
      <normaloff>:/images/quit.png</normaloff>:/images/quit.png</iconset>
@@ -474,13 +670,43 @@ QToolButton:hover {
     <string>Beenden</string>
    </property>
   </action>
-  <action name="menu_Help_About">
+  <action name="menu_help_about">
    <property name="icon">
     <iconset resource="Ressourcen.qrc">
      <normaloff>:/images/about.png</normaloff>:/images/about.png</iconset>
    </property>
    <property name="text">
     <string>About</string>
+   </property>
+  </action>
+  <action name="menu_view_toolbar">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Toolbar</string>
+   </property>
+  </action>
+  <action name="menu_view_statusbar">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Statusbar</string>
+   </property>
+  </action>
+  <action name="menu_view_truth_table">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Wahrheitstabelle</string>
    </property>
   </action>
  </widget>
@@ -490,8 +716,8 @@ QToolButton:hover {
  </resources>
  <connections/>
  <buttongroups>
-  <buttongroup name="buttonGroup"/>
   <buttongroup name="buttonGroup_2"/>
+  <buttongroup name="buttonGroup"/>
   <buttongroup name="buttonGroup_3"/>
  </buttongroups>
 </ui>

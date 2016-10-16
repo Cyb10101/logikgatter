@@ -5,8 +5,8 @@
 frm_about::frm_about(QWidget *parent) : QDialog(parent), ui(new Ui::frm_about) {
     ui->setupUi(this);
 
-    QString cyb_version = "1.0.0";
-    ui->label_program->setText("<span style=\"font-size:12pt; font-weight:600;\">Logikgatter " + cyb_version + "</span>");
+    QString version = "1.1.0";
+    ui->label_program->setText("<span style=\"font-size:12pt; font-weight:600;\">Logikgatter " + version + "</span>");
 
     // Center Screen
     QRect position = frameGeometry();

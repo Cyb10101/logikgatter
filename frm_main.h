@@ -5,16 +5,16 @@
 #include <QToolButton>
 
 namespace Ui {
-class frm_Main;
+class frm_main;
 }
 
-class frm_Main : public QMainWindow
+class frm_main : public QMainWindow
 {
     Q_OBJECT
 
 public:
-    explicit frm_Main(QWidget *parent = 0);
-    ~frm_Main();
+    explicit frm_main(QWidget *parent = 0);
+    ~frm_main();
 
 private slots:
     void update_view();
@@ -24,11 +24,15 @@ private slots:
     int randInt(int low, int high);
 
     void on_button_newRandom_clicked();
-    void on_menu_File_Quit_triggered();
-    void on_menu_Help_About_triggered();
+    void on_menu_file_quit_triggered();
+    void on_menu_view_toolbar_triggered(bool checked);
+    void on_menu_view_statusbar_triggered(bool checked);
+    void on_menu_view_truth_table_triggered(bool checked);
+    void on_menu_help_about_triggered();
+    void window_resize();
 
 private:
-    Ui::frm_Main *ui;
+    Ui::frm_main *ui;
 };
 
 #endif // FRM_MAIN_H

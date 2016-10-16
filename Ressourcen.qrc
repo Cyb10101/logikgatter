@@ -5,5 +5,7 @@
         <file>images/quit.png</file>
         <file>images/cyb_strudel_48x48.png</file>
         <file>images/cyb10101.de.png</file>
+        <file>images/radio_off.png</file>
+        <file>images/radio_on.png</file>
     </qresource>
 </RCC>
