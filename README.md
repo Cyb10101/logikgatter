@@ -1,46 +1,13 @@
-Logikgatter
-================================================================================
+# Logikgatter
 **In English:** Logic gate
 
-**Explains:**
-* AND, OR, XOR
-* NAND, NOR, XNOR
-
-My [Website] [1] and my [Project] [2].
+Explains the logic for: AND, OR, XOR, NAND, NOR and XNOR
 
 
-Other Stuff
---------------------------------------------------------------------------------
-
-**Functions:**
-
-1.  Self-Test
-
-2.  Randomize
-
-	Only Push Button
-
-3.	Do **not** use `variable`:
-
-		In this code...
+## Development
+Build with "[QT Creator](https://www.qt.io/download/) 4.0.3" based on "Qt 5.6.1".
 
 
-*No Comment...*
+## Screenshots
+![Logikgatter](images/screenshots/screenshot01.png "Logikgatter")
 
-
-<dl>
-	<dt>Need Help</dt>
-	<dd>Get It</dd>
-</dl>
-
-<table>
-	<tr>
-		<th>Key</th><th>Value</th>
-	</tr>
-	<tr>
-		<td>Language</td><td>German</td>
-	</tr>
-</table>
-
-[1]: http://cyb10101.de/ "Cyb10101.de"
-[2]: https://github.com/Cyb10101/logikgatter/ "Github"
