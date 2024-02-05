@@ -1,5 +1,7 @@
 # Logikgatter
 
+> ***ARCHIVED:*** A newer version can be found here: [Cyb10101/electron_logic-gate](https://github.com/Cyb10101/electron_logic-gate)
+
 **In English:** Logic gate
 
 Explains the logic for: AND, OR, XOR, NAND, NOR and XNOR
